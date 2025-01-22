@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Montserrat", "Helvetica Neue";
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-btn {
+  background-color: #4037d3;
+  color: white;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  margin: 20px 10px;
+  font-size: 15px;
+}
+.input {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.image-flex {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* gap: 2px; */
+}
